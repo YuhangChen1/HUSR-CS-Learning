@@ -1,0 +1,44 @@
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 1 accuracy is: 0.5951
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 2 accuracy is: 0.5054
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 3 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 4 accuracy is: 0.5625
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 5 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 6 accuracy is: 0.6114
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 7 accuracy is: 0.5679
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 8 accuracy is: 0.6223
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 9 accuracy is: 0.6250
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 10 accuracy is: 0.5353
+2025-04-10 13:59:32 [INFO] __main__:33 - 0.5820652173913043
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 1 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 2 accuracy is: 0.6005
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 3 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 4 accuracy is: 0.5625
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 5 accuracy is: 0.6304
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 6 accuracy is: 0.6332
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 7 accuracy is: 0.5679
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 8 accuracy is: 0.6549
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 9 accuracy is: 0.5380
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 10 accuracy is: 0.6033
+2025-04-10 13:59:32 [INFO] __main__:33 - 0.598641304347826
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 1 accuracy is: 0.6467
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 2 accuracy is: 0.5870
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 3 accuracy is: 0.6576
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 4 accuracy is: 0.5652
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 5 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 6 accuracy is: 0.6114
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 7 accuracy is: 0.6087
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 8 accuracy is: 0.6196
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 9 accuracy is: 0.5761
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 10 accuracy is: 0.6114
+2025-04-10 13:59:32 [INFO] __main__:33 - 0.6081521739130434
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 1 accuracy is: 0.6685
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 2 accuracy is: 0.5978
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 3 accuracy is: 0.6440
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 4 accuracy is: 0.6168
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 5 accuracy is: 0.6304
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 6 accuracy is: 0.6168
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 7 accuracy is: 0.6304
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 8 accuracy is: 0.6522
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 9 accuracy is: 0.6223
+2025-04-10 13:59:32 [INFO] __main__:31 - Fold 10 accuracy is: 0.6576
+2025-04-10 13:59:32 [INFO] __main__:33 - 0.6336956521739131

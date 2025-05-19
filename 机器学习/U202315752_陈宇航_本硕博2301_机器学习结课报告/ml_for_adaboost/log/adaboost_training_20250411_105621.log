@@ -1,0 +1,21 @@
+2025-04-11 10:56:21 [INFO] __main__:38 - 基分类器编号: 1
+2025-04-11 10:56:21 [INFO] __main__:65 - 使用基分类器: DecisionStump 进行10折交叉验证，并输出到 experiments/ 文件夹
+2025-04-11 10:56:21 [INFO] utils.data_loader:10 - load_data: 读取 data.csv 和 targets.csv, 样本数=3680, 特征数=57
+2025-04-11 10:56:21 [INFO] utils.cross_validation:26 - k_fold_split: 已拆分为 10 折, each fold size~368 (最后一折=368)
+2025-04-11 10:56:21 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D2E0>
+2025-04-11 10:56:22 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D370>
+2025-04-11 10:56:22 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:22 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:23 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:23 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:23 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:24 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:24 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:24 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:25 [INFO] __main__:87 - 完成基分类器数目=1 的10折输出
+2025-04-11 10:56:25 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>
+2025-04-11 10:56:25 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D6A0>
+2025-04-11 10:56:25 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D790>
+2025-04-11 10:56:26 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D4F0>
+2025-04-11 10:56:26 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897FB0D430>
+2025-04-11 10:56:26 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000001897F8AA520>

@@ -1,0 +1,19 @@
+AdaBoost_Project/
+├── main.py
+├── log
+├── adaboost
+│   ├── __init__.py
+│   └── adaboost.py
+├── base_models
+│   ├── __init__.py
+│   ├── decision_stump.py
+│   └── logistic_regression.py
+├── utils
+│   ├── __init__.py
+│   ├── data_loader.py
+│   └── cross_validation.py
+├── data.csv
+├── targets.csv
+└── experiments
+    └── (here is where csv files of result hold)
+

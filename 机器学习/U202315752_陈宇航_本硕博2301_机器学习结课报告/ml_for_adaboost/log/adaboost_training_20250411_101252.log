@@ -1,0 +1,4 @@
+2025-04-11 10:12:52 [INFO] __main__:137 - 基分类器编号: 1
+2025-04-11 10:12:52 [INFO] __main__:164 - 使用基分类器: DecisionStump 进行10折交叉验证，并输出到 experiments/ 文件夹
+2025-04-11 10:12:52 [INFO] utils.data_loader:23 - load_data: 读取 data.csv 和 targets.csv, 样本数=3680, 特征数=57
+2025-04-11 10:12:52 [INFO] utils.cross_validation:26 - k_fold_split: 已拆分为 10 折, each fold size~368 (最后一折=368)
