@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/HUST-CS%20Learning-%23007ACC?style=for-the-badge&logo=github" alt="HUSR CS Learning Banner"/>
 </p>
 
-# 🚀 HUSR-CS-Learning | 华中科技大学 计算机科学学习笔记 🧠
+# 🚀 HUSR-CS-Learning | 华中科技大学（2023级本硕博） 计算机科学学习笔记 🧠
 
 欢迎来到我的 **华中科技大学 (HUST) 计算机科学与技术** 专业学习记录与资源分享仓库🎓
 
