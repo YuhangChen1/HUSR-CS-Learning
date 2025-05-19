@@ -1,0 +1,37 @@
+# Project: SAT对角线数独
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = display.o cnfparser.o solver.o X_sudoku.o
+LINKOBJ  = display.o cnfparser.o solver.o X_sudoku.o
+LIBS     = -L"H:/okok/Dev-Cpp/MinGW64/lib" -L"H:/okok/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"H:/okok/Dev-Cpp/MinGW64/include" -I"H:/okok/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"H:/okok/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"H:/okok/Dev-Cpp/MinGW64/include" -I"H:/okok/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"H:/okok/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"H:/okok/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = SAT对角线数独.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+display.o: display.cpp
+	$(CPP) -c display.cpp -o display.o $(CXXFLAGS)
+
+cnfparser.o: cnfparser.cpp
+	$(CPP) -c cnfparser.cpp -o cnfparser.o $(CXXFLAGS)
+
+solver.o: solver.cpp
+	$(CPP) -c solver.cpp -o solver.o $(CXXFLAGS)
+
+X_sudoku.o: X_sudoku.cpp
+	$(CPP) -c X_sudoku.cpp -o X_sudoku.o $(CXXFLAGS)

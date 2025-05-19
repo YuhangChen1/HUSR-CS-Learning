@@ -1,0 +1,23 @@
+安装使用步骤：
+
+1）将本压缩包释放到任意硬盘中，比如D:中，最后形成的目录为D:\QEMUTEST\QEMU
+
+2）在 windows系统高级设置中，修改windows环境变量中的系统变量，增加一个path=D:\QEMUTEST\QEMU，重启动计算机。具体操作可参见windows操作说明或"ARM虚拟环境安装说明"中相关内容
+
+3）以系统管理员身份运行“CMD"
+
+4）进入到D:\QEMUTEST目录下
+   方法：C:>D:
+         D:>CD QEMUTEST
+
+5)每次启动时，将下列命令串复制到命令行
+qemu-system-aarch64 -m 4096 -cpu cortex-a57 -smp 4 -M virt -bios edk2-aarch64-code.fd -hda openEuler-20.03-LTS.aarch64.qcow2 -serial vc:800x600
+
+6）在显示的QEMU窗口中，在菜单“View”下选择Serial0。
+用户名：root
+密码：openEuler12#$
+
+test子目录下有示例程序。
+
+
+注：该包中已经安装了gcc,gdb。若需要下载其他软件，则需要启动网卡（执行ifup），具体操作见"ARM虚拟环境安装说明"中相关内容。
