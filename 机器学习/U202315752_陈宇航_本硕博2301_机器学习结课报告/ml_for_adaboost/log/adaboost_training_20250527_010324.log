@@ -1,0 +1,13 @@
+2025-05-27 01:03:24 [INFO] __main__:38 - 基分类器编号: 1
+2025-05-27 01:03:24 [INFO] __main__:79 - 使用基分类器: DecisionStump 进行10折交叉验证，并输出到 experiments/ 文件夹
+2025-05-27 01:03:24 [INFO] utils.data_loader:10 - load_data: 读取 data.csv 和 targets.csv, 样本数=3680, 特征数=57
+2025-05-27 01:03:24 [INFO] utils.cross_validation:26 - k_fold_split: 已拆分为 10 折, each fold size~368 (最后一折=368)
+2025-05-27 01:03:24 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x000002434AA6BF10>
+2025-05-27 01:03:25 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F1FCD0>
+2025-05-27 01:03:26 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F1FC40>
+2025-05-27 01:03:27 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>
+2025-05-27 01:03:28 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>
+2025-05-27 01:03:29 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>
+2025-05-27 01:03:30 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>
+2025-05-27 01:03:31 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>
+2025-05-27 01:03:32 [INFO] adaboost.adaboost:25 - model is <base_models.decision_stump.DecisionStump object at 0x0000024348F411F0>

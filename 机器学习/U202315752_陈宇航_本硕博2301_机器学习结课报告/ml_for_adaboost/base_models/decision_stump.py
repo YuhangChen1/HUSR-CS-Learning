@@ -19,9 +19,21 @@ class DecisionStump:
 
         for f in range(n_features):
             feature_values = X[:, f]
-            unique_vals = np.unique(feature_values)
+            # unique_vals = np.unique(feature_values) # Original approach
 
-            for threshold in unique_vals:
+            # Optimization: Use a smaller set of candidate thresholds based on percentiles
+            # This significantly reduces computation if a feature has many unique values.
+            # The number of percentiles (e.g., 10-20) can be a tuning parameter.
+            # We take unique values of these quantiles to avoid duplicates if data is sparse
+            # and also ensure that thresholds are actual values present in the feature.
+            if len(np.unique(feature_values)) > 10: # Apply optimization if more than 10 unique values
+                # Consider a fixed number of quantiles, e.g., 10 to 20 (here using 19 points for up to 20 thresholds)
+                # Using percentiles from 5 to 95 to get a good spread
+                candidate_thresholds = np.unique(np.percentile(feature_values, np.linspace(5, 95, 19)))
+            else:
+                candidate_thresholds = np.unique(feature_values) # Use all unique values if they are few
+
+            for threshold in candidate_thresholds: # Iterate over fewer thresholds
                 p = 1
                 preds = np.ones(n_samples, dtype=int)
                 preds[feature_values < threshold] = -1

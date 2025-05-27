@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 class AdaBoost:
-    def __init__(self, get_base_model, n_estimators=10, learning_rate=1.01075):
+    def __init__(self, get_base_model, n_estimators=10, learning_rate=1.0):
         # 新增 learning_rate 参数
         self.get_base_model = get_base_model
         self.n_estimators = n_estimators
