@@ -55,6 +55,7 @@
     * `算法`
 * **计算机系统 (Computer Systems):**
     * `计算机系统基础`
+    * `计算机组成原理（逻辑电路与计算机设计）`
 * **数据库 (Databases):**
     * `数据库`
 * **程序设计与计算思维 (Programming Practice & Computational Thinking):**
